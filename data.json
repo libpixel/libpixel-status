@@ -1,0 +1,29 @@
+{
+  "services": [
+    {
+      "name": "LibPixel CDN",
+      "status": "operational"
+    },
+    {
+      "name": "LibPixel (us-east-1)",
+      "status": "operational"
+    },
+    {
+      "name": "LibPixel (eu-west-1)",
+      "status": "operational"
+    },
+    {
+      "name": "Dashboard",
+      "status": "operational"
+    }
+  ],
+  "maintenance": [
+    {
+      "title": "Dashboard database upgrade",
+      "date": "2016-02-07T14:00:00Z",
+      "severity": "red",
+      "description": "We'll be upgrading our dashboard database which will cause it to be offline for a few minutes. Only the dashboard will be affected by this downtime. All image processing services will continue to operate uninterrupted."
+    }
+  ],
+  "incidents": []
+}
