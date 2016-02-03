@@ -25,5 +25,12 @@
       "description": "We'll be upgrading our dashboard database which will cause it to be offline for a few minutes. Only the dashboard will be affected by this downtime. All image processing services will continue to operate uninterrupted."
     }
   ],
-  "incidents": []
+  "incidents": [
+    {
+      "title": "Missing receipts in dashboard",
+      "date": "2016-02-03T17:11:00Z",
+      "description": "Some recent receipts were missing from the Billing page of the dashboard. All receipts are now available for download. There were no issues delivering receipts by email.",
+      "resolved": true
+    }
+  ]
 }
