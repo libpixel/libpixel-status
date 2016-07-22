@@ -44,6 +44,20 @@
       "date": "2016-02-03T17:11:00Z",
       "description": "Some recent receipts were missing from the Billing page of the dashboard. All receipts are now available for download. There were no issues delivering receipts by email.",
       "resolved": true
+    },
+    {
+      "title": "Dashboard down",
+      "severity": "yellow",
+      "date": "2016-07-22T21:15:00Z",
+      "description": "Changes in configuration and code have resulted in a failed dashboard deployment which brought down the service. No image processing services are affected, and continue to operate normally.",
+      "resolved": true,
+      "updates": [
+        {
+          "date": "2016-07-22T21:33:00Z",
+          "status": "Resolved",
+          "body": "The dashboard is back online. We'll be improving our deployment system in the near future to prevent failed deployments from bringing the service down for this long."
+        }
+      ]
     }
   ]
 }
