@@ -14,7 +14,7 @@
     },
     {
       "name": "Dashboard",
-      "status": "operational"
+      "status": "degraded"
     }
   ],
   "maintenance": [
@@ -56,6 +56,30 @@
           "date": "2016-07-22T21:33:00Z",
           "status": "Resolved",
           "body": "The dashboard is back online. We'll be improving our deployment system in the near future to prevent failed deployments from bringing the service down for this long."
+        }
+      ]
+    },
+    {
+      "title": "Dashboard usage data incident",
+      "severity": "yellow",
+      "date": "2017-04-17T10:41:00Z",
+      "description": "We've detected request timeouts on our dashboard and are investigating.",
+      "resolved": false,
+      "updates": [
+        {
+          "date": "2017-04-17T10:46:00Z",
+          "status": "Issue identified",
+          "body": "We've identified that our system that tracks customer usage is experience very degraded performance, causing request timeouts on our dashboard and usage alerts to not be sent in realtime."
+        },
+        {
+          "date": "2017-04-17T11:10:00Z",
+          "status": "Temporary fix",
+          "body": "We've disabled usage reports until we can have the underlying system fixed."
+        },
+        {
+          "date": "2017-04-17T22:33:00Z",
+          "status": "Restoring unique usage data",
+          "body": "We've re-engineered parts of our usage data store to perform better under high volumes of data. We've cleared all the unique usage data for the current month and are currently restoring it."
         }
       ]
     }
