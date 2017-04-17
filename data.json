@@ -79,7 +79,12 @@
         {
           "date": "2017-04-17T22:33:00Z",
           "status": "Restoring unique usage data",
-          "body": "We've re-engineered parts of our usage data store to perform better under high volumes of data. We've cleared all the unique usage data for the current month and are currently restoring it."
+          "body": "We've re-engineered parts of our usage data store to perform better under high volumes of data. We've cleared all the unique usage data for the current month and are currently restoring it from logs."
+        },
+        {
+          "date": "2017-04-17T23:09:00Z",
+          "status": "Unique usage data restored",
+          "body": "The unique requests in the dashboard are now all correct and up-to-date. Bandwidth and total request usage reports are still not up-to-date, and will be restored from logs within the next 24 hours."
         }
       ]
     }
