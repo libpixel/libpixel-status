@@ -14,7 +14,7 @@
     },
     {
       "name": "Dashboard",
-      "status": "degraded"
+      "status": "operational"
     }
   ],
   "maintenance": [
@@ -63,8 +63,8 @@
       "title": "Dashboard usage data incident",
       "severity": "yellow",
       "date": "2017-04-17T10:41:00Z",
-      "description": "We've detected request timeouts on our dashboard and are investigating.",
-      "resolved": false,
+      "description": "We've detected request timeouts on our dashboard and are investigating. Image serving is not affected in any way.",
+      "resolved": true,
       "updates": [
         {
           "date": "2017-04-17T10:46:00Z",
@@ -85,6 +85,11 @@
           "date": "2017-04-17T23:09:00Z",
           "status": "Unique usage data restored",
           "body": "The unique requests in the dashboard are now all correct and up-to-date. Bandwidth and total request usage reports are still not up-to-date, and will be restored from logs within the next 24 hours."
+        },
+        {
+          "date": "2017-04-17T12:57:00Z",
+          "status": "All usage data restored",
+          "body": "We've finished restoring the total request and bandwidth usage data. All data is now restored and the service is back to normal. Image serving was not affected in any way by this incident."
         }
       ]
     }
