@@ -87,7 +87,7 @@
           "body": "The unique requests in the dashboard are now all correct and up-to-date. Bandwidth and total request usage reports are still not up-to-date, and will be restored from logs within the next 24 hours."
         },
         {
-          "date": "2017-04-17T12:57:00Z",
+          "date": "2017-04-18T12:57:00Z",
           "status": "All usage data restored",
           "body": "We've finished restoring the total request and bandwidth usage data. All data is now restored and the service is back to normal. Image serving was not affected in any way by this incident."
         }
