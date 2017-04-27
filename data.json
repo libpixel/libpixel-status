@@ -14,7 +14,7 @@
     },
     {
       "name": "Dashboard",
-      "status": "maintenance"
+      "status": "degraded"
     }
   ],
   "maintenance": [
