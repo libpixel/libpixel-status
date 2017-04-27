@@ -92,6 +92,20 @@
           "body": "We've finished restoring the total request and bandwidth usage data. All data is now restored and the service is back to normal. Image serving was not affected in any way by this incident."
         }
       ]
+    },
+    {
+      "title": "Incorrect usage data",
+      "severity": "yellow",
+      "date": "2017-04-27T10:38:00Z",
+      "description": "A change made on the 17th of April has caused unique requests to be counted multiple times in some circumstances.",
+      "resolved": false,
+      "updates": [
+        {
+          "date": "2017-04-27T19:09:00Z",
+          "status": "Issue fixed",
+          "body": "After thorough testing, a fix was deployed to production. We've erased unique counters for all customers and are restoring them from logs."
+        }
+      ]
     }
   ]
 }
