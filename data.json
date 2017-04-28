@@ -14,7 +14,7 @@
     },
     {
       "name": "Dashboard",
-      "status": "degraded"
+      "status": "operational"
     }
   ],
   "maintenance": [
@@ -98,7 +98,7 @@
       "severity": "yellow",
       "date": "2017-04-27T10:38:00Z",
       "description": "A change made on the 17th of April has caused unique requests to be counted multiple times in some circumstances.",
-      "resolved": false,
+      "resolved": true,
       "updates": [
         {
           "date": "2017-04-27T19:09:00Z",
