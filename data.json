@@ -40,6 +40,20 @@
   ],
   "incidents": [
     {
+      "title": "Dashboard down",
+      "severity": "yellow",
+      "date": "2017-11-25T08:04:00Z",
+      "description": "A disk incident cause the service to stop serving requests. No image processing services are affected, and continue to operate normally.",
+      "resolved": true,
+      "updates": [
+        {
+          "date": "2016-11-25T08:50:00Z",
+          "status": "Resolved",
+          "body": "The dashboard is back online."
+        }
+      ]
+    },
+    {
       "title": "Missing receipts in dashboard",
       "date": "2016-02-03T17:11:00Z",
       "description": "Some recent receipts were missing from the Billing page of the dashboard. All receipts are now available for download. There were no issues delivering receipts by email.",
